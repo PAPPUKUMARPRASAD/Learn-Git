@@ -1,6 +1,9 @@
 $(document).ready(function(){
-    let a=12;
-    let b=15;
-    let sum=a+b;
-    console.log(sum);
+    let result=sum(15,25);
+    console.log(result);
 })
+function sum(a,b)
+    {
+    let sum=a+b;
+    return sum;
+    }
